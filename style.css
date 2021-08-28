@@ -107,7 +107,7 @@ figure img {
 }
 
 figcaption {
-    margin-top: 3.334%;
+    margin-top: 100px;
     
 }
 
@@ -192,4 +192,154 @@ footer {
     display: flex;
     justify-content: left;
 }
+
+@media screen only and (max-width: 1133px) {
+    #locations {
+        max-height: 700px;
+        padding-top: 70px;
+    }
+}
+
+@media screen only and (max-width: 755px) {
+    main {
+        top: 107px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header img {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    #our-mission {
+        width: 90%;
+        max-height: 500px;
+    }
+
+    #featured-tea {
+        width: 100%;
+        padding-top: 14.17%;
+    }
+
+    #locations {
+        width: 90%;
+        padding-top: 14.17%;
+        max-height: 1000px;
+    }
+
+    #contact {
+        height: 150px;
+    }
+
+    footer {
+        position: relative;
+        top: 40px;
+    }
+}
+
+@media screen only and (max-width: 425px) {
+    main {
+        top: 47px;
+        padding-bottom: 0;
+    }
+
+    header img {
+        display: none;
+    }
+
+    #our-mission {
+        width: 95%;
+    }
+
+    #our-mission h4{
+        font-size: 0.85rem;
+    }
+
+    #featured-tea {
+        padding-top: 46px;
+    }
+
+    #featured-tea h4 {
+        font-size: 0.95rem;
+    }
+
+    figure {
+        width: 95%;
+        margin: none;
+    }
+
+    #locations {
+        width: 95%;
+        max-height: 900px;
+        background-position: right;
+    }
+
+    .address p {
+        padding: 5% 0;
+    }
+
+    footer {
+        padding: 3%;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen only and (max-width: 320px) {
+    main {
+        top: 109px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    header a {
+        margin: 5px;
+    }
+
+    #featured-tea {
+        padding-top: 110px;
+    }
+
+    #locations {
+        margin-top: 55px;
+        padding-top: 55px;
+    }
+
+    #locations h2 {
+        padding-bottom: 20px;
+    }
+
+    #contact h2 {
+        padding-top: 20px;
+    }
+
+    footer {
+        top: 109px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
